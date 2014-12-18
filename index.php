@@ -5,7 +5,7 @@ $dsn = "mysql:host=localhost;dbname=rubikin_db";
 $user = "root";
 $password = "";
 
-$sql = 'LOAD DATA INFILE  "\\\WebIT\\\Xampp\\\htdocs\\\MyWeb\\\06_Nilead\\\CSV\\\product8000.csv"
+$sql = 'LOAD DATA INFILE  "\\\WebIT\\\Xampp\\\htdocs\\\MyWeb\\\06_Nilead\\\CSV\\\products.csv"
                                 INTO TABLE product
                                 FIELDS TERMINATED BY  ","
                                 ENCLOSED BY  ""
